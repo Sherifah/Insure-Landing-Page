@@ -7,11 +7,11 @@ import BottomNavBar from "./Components/BottomNavBar";
 
 const App = () => {
     return (
-        <div className="App relative">
+        <div className="App">
             <Navbar />
             <Hero />
-            {/* <Features />
-            <CTA />
+            <Features />
+            {/* <CTA />
             <BottomNavBar /> */}
 
             <div className="attribution mt-5 ">
