@@ -2,10 +2,10 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='pt-44 px-32 py-16 text-neutral-100'>
+    <div className='mt-44 mx-32 text-neutral-100'>
       <hr className='w-28 h-px bg-primary-100 opacity-50 border-0'/>
       <div className='font-headings text-5xl pt-8 pb-16 leading-18'>
-        <h1>We are different</h1>
+        <h2>We are different</h2>
       </div>
 
       {/* The features cards */}

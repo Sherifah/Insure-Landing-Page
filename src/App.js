@@ -11,8 +11,8 @@ const App = () => {
             <Navbar />
             <Hero />
             <Features />
-            {/* <CTA />
-            <BottomNavBar /> */}
+            <CTA />
+            {/* <BottomNavBar /> */}
 
             <div className="attribution mt-5 ">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
