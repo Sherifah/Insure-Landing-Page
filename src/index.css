@@ -8,7 +8,10 @@
     @apply text-primary-200 hover:text-primary-100 font-body uppercase text-sm font-bold
 }
 
+.nav-item-menu {
+    @apply text-white font-body uppercase text-sm font-bold pb-6
+}
+
 .link {
     @apply font-body text-sm uppercase font-bold text-neutral-100 hover:underline cursor-pointer pb-4
 }
-

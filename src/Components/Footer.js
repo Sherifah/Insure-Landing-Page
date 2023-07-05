@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter,  } from 'react-icons/ai';
+import { FaPinterest } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -8,11 +10,11 @@ const Footer = () => {
           <div className='logo'>
             <img src='/images/logo.svg' alt='web logo' />
           </div>
-          <div className='social-media flex items-center gap-6'>
-            <img src='images/icon-facebook.svg' alt='facebook icon' className='w-5 h-5 hover:fill-primary-100 cursor-pointer'></img>
-            <img src='images/icon-twitter.svg' alt='twitter icon' className='w-5 h-5 hover:fill-primary-100 cursor-pointer'></img>
-            <img src='images/icon-pinterest.svg' alt='pinterest icon' className='w-5 h-5 hover:fill-primary-100 cursor-pointer'></img>
-            <img src='images/icon-instagram.svg' alt='instagram icon' className='w-5 h-5 hover:fill-primary-100 cursor-pointer'></img>
+          <div className='social-media flex items-center gap-5'>
+            <AiFillFacebook size={20} className='fill-neutral-200 hover:fill-neutral-100' />
+            <AiOutlineTwitter size={20} className='fill-neutral-200 hover:fill-neutral-100' />
+            <FaPinterest size={20} className='fill-neutral-200 hover:fill-neutral-100' />
+            <AiOutlineInstagram size={20} className='fill-neutral-200 hover:fill-neutral-100' />
           </div>
         </div>
         <hr className='bg-neutal-100 my-10 md:my-8' />
