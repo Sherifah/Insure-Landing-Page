@@ -9,9 +9,9 @@ const Hero = () => {
       </div>
       <div className='bg-primary-100 md:z-0 px-8 py-20 md:px-32 md:py-16 text-white relative'>
           <div>
-            <img src='images/image-intro-desktop.jpg' className='md:absolute hidden md:block top-16 right-32 object-cover w-[38%] h-[100%]'/>
+            <img src='images/image-intro-desktop.jpg' className='md:absolute hidden md:block top-16 right-32 object-cover w-[42%] h-[100%]'/>
           </div>
-          <div className='md:w-1/2 md:pr-8 md:pb-10 relative z-10'>
+          <div className='md:w-1/2 md:pr-12 md:pb-10 relative z-10'>
             <hr className='w-28 pb-8 hidden md:block'/>
             <div className=''>
               <div className='font-headings text-4xl md:text-6xl pb-4 md:pb-8 md:leading-18'>
