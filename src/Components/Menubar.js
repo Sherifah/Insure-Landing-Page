@@ -35,7 +35,7 @@ const Menubar = (props) => {
             
         </div> 
         <div>
-            <img src='images/bg-pattern-mobile-nav.svg' alt='patterns' className='absolute md:hidden bottom-0 w-[100%] h-[40%]' />
+            <img src='images/bg-pattern-mobile-nav.svg' alt='patterns' className='absolute md:hidden bottom-0 w-[100%]' />
         </div>
     </div>
   )
