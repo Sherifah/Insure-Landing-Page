@@ -4,7 +4,7 @@ const Menubar = (props) => {
 
 
   return (
-    <div className='bg-primary-100 relative top-0  left-0 w-full h-full md:hidden'>
+    <div className='bg-primary-100 relative top-0 left-0 w-full h-[100vh] md:hidden'>
         <div className='relative z-10'>
             <div className='navbar bg-white px-8 py-4 md:hidden flex justify-between items-center'>
                 <div className='logo'>
@@ -31,11 +31,12 @@ const Menubar = (props) => {
                     <button className='btn uppercase'>View Plans</button>
                 </div>
             </nav>
-            {/* <div>
-                <img src='images/bg-pattern-mobile-nav.svg' alt='patterns' className='absolute md:hidden z-20 bottom-0 w-[100%]' />
-            </div> */}
             </div>
+            
         </div> 
+        <div>
+            <img src='images/bg-pattern-mobile-nav.svg' alt='patterns' className='absolute md:hidden bottom-0 w-[100%] h-[40%]' />
+        </div>
     </div>
   )
 }
